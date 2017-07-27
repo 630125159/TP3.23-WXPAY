@@ -16,10 +16,16 @@
 只需要根据TP的MVC模式简单的调用就可以实现微信支付功能
 
 但你必须得完成以下配置(网站根目录为App)
+
+
 1.\ThinkPHP-wxpay\ThinkPHP\Library\Vendor\cert\ 下面放入你的商户平台支付验证文件，覆盖apiclient_cert.pem和apiclient_key.pem
+
 2.\ThinkPHP-wxpay\ThinkPHP\Library\Vendor\lib\WxPayConfig.php 在此文件配置好你的相关参数（四个）
+
 3.\ThinkPHP-wxpay\App\Common\Conf\config.php 配置好appid、appsecret
+
 4.微信公众平台设置好微信支付url(注意大小写要一致,示例:http://你的域名/index.php/Home/Index/)
+
 5.网页授权地址:你的域名
 
 
