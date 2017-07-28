@@ -11,9 +11,9 @@ use Think\Controller;
 class IndexController extends Controller {
 	
 	public function wxpay(){
-			import('Vendor.JSSDK');
-			Vendor('WxPayJsApiPay');
-			Vendor('log');
+			Vendor('lib.JSSDK');
+			Vendor('lib.WxPayJsApiPay');
+			Vendor('lib.log');
 			Vendor('lib.WxPayApi');
 			
 			//实例化JSSDK
