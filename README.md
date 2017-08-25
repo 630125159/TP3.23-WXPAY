@@ -1,3 +1,9 @@
+#目录结构 
+
+App --demo调用
+cert --证书
+lib --扩展包
+
 # 配置
 
 下载文件解压后把lib文件夹放到ThinkPHP\Library\Vendor\目录下
